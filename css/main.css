@@ -38,9 +38,15 @@ nav a {
 
 
 }
-div {
+.div1,.div3,.div5,.div7, .div9 {
   padding:1em;
-  background-color: #f2b28f;
+  background-color: #e26f3b;
+}
+
+.div2, .div4,.div6, .div8,.div10 {
+  padding:1em;
+  background-color: #f2b28f
+
 }
 
 nav li{
