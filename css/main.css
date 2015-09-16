@@ -5,3 +5,120 @@ html {
 *,*::before,*::after {
   box-sizing:inherit;
 }
+.logo {
+  float:left;
+  width:10%;
+
+}
+.banner {
+  width:100%;
+}
+
+nav {
+  background-color:pink;
+  padding:0.5em 0.5em 0.5em 0.5em;
+}
+
+nav a {
+  display:inline-block;
+  text-decoration:none;
+
+
+}
+
+nav li{
+  list-style:none;
+  width:24%;
+  display:inline-block;}
+
+img {
+  width:90%;
+  margin-left: auto;
+  margin-right: auto;
+  display:block;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: left;
+}
+
+.atlantis {
+  width:100%;
+}
+
+ol {
+  list-style:none;
+}
+
+p {
+  text-align: center;
+}
+
+dl {
+  display: inline-block;
+
+}
+
+dd {
+  display: inline-block;
+
+
+}
+
+dt {
+  display: inline-block;
+
+}
+
+.sevenwonders{
+  background-color:red;
+  padding:1em;
+  margin:0;
+  overflow:hidden;
+  border-radius: 10%;
+
+}
+.buytickets{
+  background-color:red;
+  padding:1em;
+  margin:0;
+  overflow:hidden;
+  border-radius: 10%;
+
+}
+
+.nowplaying{
+  background-color:red;
+  padding:1em;
+  margin:0;
+  overflow:hidden;
+  border-radius: 10%;
+
+}
+.thisweek{
+  background-color:red;
+  padding:1em;
+  margin:0;
+  overflow:hidden;
+  border-radius: 10%;
+
+}
+
+a {
+
+    background-color:red;
+    padding:1em;
+    margin:0;
+    overflow:hidden;
+    border-radius: 10%;
+    text-align: center;
+
+  }
