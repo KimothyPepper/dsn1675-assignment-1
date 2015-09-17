@@ -22,7 +22,7 @@ body{
   color: white;
 }
 
-.div12 {background-image: url("../images/banner.jpg");
+.div12 {background-image: url("../images/Banner.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: left top;
@@ -249,5 +249,5 @@ p {
   padding:1em;
 }
 .learnlighthouse {
-  
+
 }
