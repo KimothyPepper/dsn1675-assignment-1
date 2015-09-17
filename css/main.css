@@ -85,6 +85,13 @@ footer {
   color:white;
 
 }
+.atlantis {
+  position: relative;
+}
+
+.atlantistype {
+  position: absolute;
+}
 
 
 h1 {
