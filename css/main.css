@@ -60,7 +60,7 @@ nav a {
 
 .div2, .div4,.div6, .div8,.div10 {
   padding:1em;
-  background-color: #f2b28f
+  background-color: #f2b28f;
 
 }
 ol {
@@ -81,9 +81,7 @@ img {
 
 }
 
-dt {
-  font-weight: bold;
-}
+
 
 .bannertype {
   position: absolute;
@@ -170,6 +168,8 @@ dd {
 
 dt {
   display: inline-block;
+    font-weight: bold;
+  }
 
 }
 
@@ -235,19 +235,40 @@ p {
   position:absolute;
 
 }
+
+.div9{
+  padding:0.5em;
+}
 .99{
-  float:left;
-  clear:both;
-  width: 50%;
+  width:50%;
+  display:inline-block;
   padding:1em;
 }
 
 .39 {
-  float:left;
-  clear:both;
-  width: 50%;
+  width:50%;
+  display:inline-block;
   padding:1em;
 }
-.learnlighthouse {
 
+.seeshowtimes{
+  width:100%;
+  display:inline-block;
+  padding:1em;
+}
+.learnlighthouse, .learncolossus, .learnmausoleuma, .learnstatue, .learntemple, .learngardens, .learngiza {
+  width:100%;
+  display:inline-block;
+  padding:1em;
+  color:white;
+  text-decoration: none;
+
+}
+.footernav li {
+  display: block;
+
+
+}
+.adress, .trademark {
+  background-color: #f2b28f;
 }
