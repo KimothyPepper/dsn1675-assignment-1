@@ -6,9 +6,12 @@ html {
 *,*::before,*::after {
   box-sizing:inherit;
 }
-
 body{
-  margin:1.5em 0 0 0;
+  margin:0;
+}
+
+div {
+  padding:1em;
 }
 .logo {
   float:left;
@@ -25,17 +28,36 @@ body{
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: left top;
-  padding:3.5em;}
-
-
-.banner {
+  padding:0 1em 1em 1em;
   width:100%;
-  position: relative;
+  color:white;
 }
+
+.div12 h2 {
+  font-size: 20px;
+  margin:0;
+
+}
+
+.div12 p {
+
+  font-size:16px;
+  margin:0;
+}
+
+
 
 header {
   display:inline-block;
   width: 100%;
+}
+
+header h1{
+  width: 100%;
+}
+
+header a{
+  float:right;
 }
 
 nav {
@@ -53,13 +75,13 @@ nav a {
 
 }
 .div1,.div3,.div5,.div7, .div9, .div11 {
-  padding:1em;
+
   background-color: #e26f3b;
 }
 
 .div2, .div4,.div6, .div8,.div10 {
-  padding:1em;
-  background-color: #f2b28f;
+
+background-color: #f2b28f;
 
 }
 ol {
@@ -80,47 +102,36 @@ img {
 
 }
 
-
-
-.bannertype {
-  position: absolute;
-  bottom: 67%;
-  color:white;
-  margin:0;
-  padding-right: 2em;
-  font-size:20px;
-
-}
 footer {
   background-color:#e26f3b;
 }
 
-.bannertype2
-{
-  position: absolute;
-  bottom: 58%;
-  color:white;
-  padding-right: 2em;
-  font-size: 14px;
 
-}
-
-.div10{
+.atlantistype{
   background-image: url("../images/atlantis.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: left top;
-    padding:6em;
-
-
+    padding:1em 1em 2em 1em;
+    text-align:center;
+    color: black;
+    clear:both;
+    width:100%;
+    margin:0;
 }
-
-.atlantistype {
-  text-align: center;
-  color: white;
-  clear:both;
-  padding-right: 2em;
-
+.atlantistype a {
+  color:white;
+  width:100%;
+  margin:0;
+  text-decoration: none;
+}
+.atlantistype strong {
+  font-size:24px;
+  font-weight: bold;
+  margin:0;
+}
+.atlantistype h3 {
+  margin:0 0 1em 0;
 }
 
 
@@ -165,14 +176,13 @@ dt {
 
 }
 
-.sevenwonders{
+.sevenwonders {
   background-color:#ba704a;
   padding:0.5em;
   margin:0;
   overflow:hidden;
   border-radius: 10%;
   color:white;
-
 }
 .buytickets{
   background-color:#ba704a;
@@ -209,7 +219,7 @@ a {
     padding:1em;
     margin:0;
     overflow:hidden;
-    border-radius: 10%;
+    border-radius: 15%;
     text-align: center;
 
 
@@ -219,31 +229,21 @@ p {
   margin:0;
 }
 
-.atlantis {
-  position: relative;
-}
-
-.atlantistype {
-  position:absolute;
-
-}
 
 .div9{
   padding:0.5em;
 }
 
 
-.seeshowtimes{
-  width:100%;
-  display:inline-block;
-  padding:1em;
-}
+
+
 .learnlighthouse, .learncolossus, .learnmausoleuma, .learnstatue, .learntemple, .learngardens, .learngiza {
-  width:100%;
+  width:95%;
   display:inline-block;
-  padding:1em;
+
   color:white;
   text-decoration: none;
+  margin:1em 1em 1em 1em;
 
 }
 .footernav li {
@@ -255,13 +255,24 @@ p {
   background-color: #f2b28f;
   text-align: left;
 }
-
-.prices {
-  width:100%;
-  padding:1em;
+.div8 {
+  padding: 0.5em 1em 5em 1em;
+}
+.div8 a {
+  width:47%;
+  padding:1em 0.5em 1em 0.5em;
+  margin: 1em 0 1em 0;
   positon:relative;
+  color:white;
+  text-decoration: none;
+
+}
+.adults {
+  float:left;
+  display:block;
 }
 
-.prices a{
-  width: 45%;
-}
+.kids {
+  float: right;
+  display:block;
+  }
