@@ -16,10 +16,9 @@ body{
 
 }
 .buy {
-  float:right;
-  clear:both;
   text-decoration: none;
   color: white;
+  float: right;
 }
 
 .div12 {background-image: url("../images/Banner.jpg");
@@ -35,8 +34,8 @@ body{
 }
 
 header {
-  clear:both;
   display:inline-block;
+  width: 100%;
 }
 
 nav {
@@ -125,6 +124,7 @@ footer {
 }
 
 
+
 h1 {
   text-align: center;
   margin: 0;
@@ -154,20 +154,12 @@ p {
   text-align: center;
 }
 
-dl {
-  display: inline-block;
-  padding:0;
-
-}
-
-dd {
-  display: inline-block;
 
 
-}
+
 
 dt {
-  display: inline-block;
+  display: block;
     font-weight: bold;
   }
 
@@ -239,17 +231,7 @@ p {
 .div9{
   padding:0.5em;
 }
-.99{
-  width:50%;
-  display:inline-block;
-  padding:1em;
-}
 
-.39 {
-  width:50%;
-  display:inline-block;
-  padding:1em;
-}
 
 .seeshowtimes{
   width:100%;
@@ -266,9 +248,20 @@ p {
 }
 .footernav li {
   display: block;
-
+  width:100%;
 
 }
 .adress, .trademark {
   background-color: #f2b28f;
+  text-align: left;
+}
+
+.prices {
+  width:100%;
+  padding:1em;
+  positon:relative;
+}
+
+.prices a{
+  width: 45%;
 }
