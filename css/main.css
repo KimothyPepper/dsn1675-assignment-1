@@ -191,8 +191,6 @@ dt {
     font-weight: bold;
   }
 
-}
-
 .sevenwonders {
   background-color:#ba704a;
 
@@ -285,7 +283,6 @@ footer p{
   width:47%;
   padding:1em 0.5em 1em 0.5em;
   margin: 1em 0 1em 0;
-  positon:relative;
   color:white;
   text-decoration: none;
 
