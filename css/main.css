@@ -268,13 +268,13 @@ div a:hover {
 .footernav li {
   display: block;
   width:100%;
-  padding: 0 0 0 2em;
+  padding: 0 0 0 1em;
 
 }
 footer p{
   background-color: #f2b28f;
   text-align: left;
-  padding:0 0 0 2em;
+  padding:0 0 0 3em;
 }
 .div8 {
   padding: 0.5em 1em 5em 1em;
