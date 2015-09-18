@@ -296,3 +296,7 @@ footer p{
   float: right;
   display:block;
   }
+
+.div11 li{
+  list-style: none;
+}
