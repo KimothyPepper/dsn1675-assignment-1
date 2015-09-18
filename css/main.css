@@ -15,7 +15,7 @@ div {
 }
 .logo {
   float:left;
-  width:35%;
+  width:25%;
   padding: 1em;
 
 }
@@ -23,6 +23,11 @@ div {
   text-decoration: none;
   color: white;
   float: right;
+  width:25%;
+  margin-top: 0.5em;
+
+
+
 }
 
 nav a:hover {
@@ -255,20 +260,23 @@ div a:hover {
 .learnlighthouse, .learncolossus, .learnmausoleuma, .learnstatue, .learntemple, .learngardens, .learngiza {
   width:95%;
   display:inline-block;
-
   color:white;
   text-decoration: none;
   margin:1em 1em 1em 1em;
 
 }
+
+
 .footernav li {
   display: block;
   width:100%;
+  padding: 0 0 0 2em;
 
 }
-.adress, .trademark {
+footer p{
   background-color: #f2b28f;
   text-align: left;
+  padding:0 0 0 2em;
 }
 .div8 {
   padding: 0.5em 1em 5em 1em;
