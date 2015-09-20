@@ -14,7 +14,7 @@ html {
 }
 body{
   margin:0;
-  background-color: # ba704a;
+  background-color: #ba704a;
 }
 
 main{
@@ -85,17 +85,6 @@ header {
 
 
 }
-header nav li a {
-  text-align: left;
-}
-
-header nav li {
-  list-style:none;
-  display:block;
-  font-size:1.2rem;
-  width:100%;
-
-}
 
 
 
@@ -109,12 +98,11 @@ nav {
   clear:both;
 }
 
-nav a {
+header nav li{
+  list-style:none;
   display:block;
-  text-decoration:none;
-  clear:both;
+  font-size:1rem;
   width:100%;
-  text-align:left;
 
 }
 .div1,.div3,.div5,.div7, .div9, .div11 {
@@ -133,12 +121,7 @@ ol {
   margin:0;
   background-color: #ba704a;
 }
-nav li{
-  list-style:none;
-  display:block;
-  font-size:1rem;
 
-}
 
 
 img {
@@ -241,11 +224,13 @@ p {
 
 aside{
   font-size: 0.7rem;
-  padding-left: 3em;s
+  padding-left: 3em;
 }
 div a:hover {
   background-color:#e09577;
 }
+
+
 
 .learnlighthouse, .learncolossus, .learnmausoleuma, .learnstatue, .learntemple, .learngardens, .learngiza {
   width:100%;
@@ -309,12 +294,12 @@ ul {
 
 @media only screen and (min-width: 25em) {
 
-  nav{
+  header nav{
   text-align: center;
 }
 
   }
-  nav a {
+  header nav a {
     display:inline-block;
     text-decoration:none;
     clear:both;
@@ -323,17 +308,15 @@ ul {
     text-align: center;
   }
 
-  nav li {
+  header nav li {
     display: inline-block;
     width:24%;
     font-size:0.7rem;
 
   }
-
-
-
-}
-
+  main {
+    padding-top:0em;
+  }
 
 
 @media only screen and (min-width: 28em) {
@@ -353,6 +336,9 @@ ul {
     font-size:0.8rem;
 
   }
+  main {
+    padding-top:0em;
+  }
 
 
 
@@ -368,16 +354,11 @@ ul {
 
 @media only screen and (min-width: 33em) {
 
-  nav a {
-    display:inline-block;
-    text-decoration:none;
-    clear:both;
-    border-radius: 0%;
-    width:100%;
-    text-align: center;
+  main {
+    padding-top: 0em;
   }
 
-  nav li {
+  header nav li {
     display: inline-block;
     width:24%;
     font-size:1rem;
@@ -395,9 +376,10 @@ ul {
   main {
   float:right;
   width:70%;
+  padding-top: 0;
 }
 
-nav li{
+header nav li{
   list-style:none;
   display:block;
   font-size:1rem;
@@ -405,17 +387,7 @@ nav li{
 
 }
 
-nav a {
-  display:inline-block;
-  text-decoration:none;
-  clear:both;
-  border-radius: 0%;
-  width:100%;
-  text-align:left;
-
-}
 
 footer {
   width:100%;
-}
 }
