@@ -350,6 +350,10 @@ ul {
 
   }
 
+  main {
+    padding-top: 7.5em;
+  }
+
   h1 {
     font-size: 1.2rem;
   }
@@ -378,7 +382,30 @@ ul {
 
   }
 
+  main {
+    padding-top: 8em;
+  }
 
+@media only screen and (min-width: 35em) {
+
+  main {
+    padding-top: 8.5em;
+  }
+}
+
+@media only screen and (min-width: 37em) {
+
+  main {
+    padding-top: 9em;
+  }
+}
+
+@media only screen and (min-width: 41em) {
+
+  main {
+    padding-top: 9.5em;
+  }
+}
 
 @media only screen and (min-width: 44em) {
 
@@ -390,6 +417,7 @@ ul {
 
   main {
   float:right;
+  padding-top: 0;
   width:70%;
 }
 
