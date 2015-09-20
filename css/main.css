@@ -14,6 +14,7 @@ html {
 }
 body{
   margin:0;
+  background-color: # ba704a;
 }
 
 
@@ -78,9 +79,11 @@ header {
   width: 100%;
   background-color: #e26f3b;
   position:fixed;
-  z-index: 100;
-}
 
+}
+main {
+  padding-top: 10em;
+}
 
 
 header a{
@@ -291,12 +294,22 @@ ul {
   margin:0;
 }
 
+@media only screen and (min-width: 19em) {
+
+  main {
+    padding-top: 11em;
+  }
+}
+
 @media only screen and (min-width: 25em) {
 
   nav{
   text-align: center;
 }
 
+  main {
+    padding-top: 7em;
+  }
   nav a {
     display:inline-block;
     text-decoration:none;
@@ -316,6 +329,8 @@ ul {
 
 
 }
+
+
 
 @media only screen and (min-width: 28em) {
 
