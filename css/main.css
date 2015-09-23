@@ -98,13 +98,11 @@ nav {
   clear:both;
 }
 
-header nav li{
-  list-style:none;
+header li {
   display:block;
-  font-size:1rem;
-  width:100%;
 
 }
+
 .div1,.div3,.div5,.div7, .div9, .div11 {
 
   background-color: #e26f3b;
@@ -292,8 +290,6 @@ ul {
 }
 
 
-@media only screen and (min-width: 25em) {
-
   header nav{
   text-align: center;
 }
@@ -305,18 +301,47 @@ ul {
     clear:both;
     border-radius: 0%;
     width:100%;
-    text-align: center;
+    text-align:left;
   }
 
   header nav li {
-    display: inline-block;
-    width:24%;
-    font-size:0.7rem;
+    display: block;
+    width:100%;
+    font-size:1.2rem;
+    text-align: left;
 
   }
   main {
     padding-top:0em;
   }
+
+
+  @media only screen and (min-width: 25em) {
+
+    header nav{
+    text-align: center;
+  }
+
+    }
+    header nav a {
+      display:inline-block;
+      text-decoration:none;
+      clear:both;
+      border-radius: 0%;
+      width:100%;
+      text-align:left;
+    }
+
+    header nav li {
+      display:inline-block;
+      width:100%;
+      font-size:1.2rem;
+      text-align: center;
+
+    }
+    main {
+      padding-top:0em;
+    }
 
 
 @media only screen and (min-width: 28em) {
