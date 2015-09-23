@@ -14,7 +14,7 @@ html {
 }
 body{
   margin:0;
-  background-color: #ba704a;
+  background-color: #f2b28f;
 }
 
 main{
@@ -223,6 +223,7 @@ p {
 aside{
   font-size: 0.7rem;
   padding-left: 3em;
+  padding-top: 1em;
 }
 div a:hover {
   background-color:#e09577;
@@ -244,13 +245,25 @@ div a:hover {
 .footernav li {
   display: block;
   width:100%;
+  padding:0em;
+
 
 }
+
+.footernav a {
+  padding: 0em;
+  background-color:#f2b28f;
+  text-decoration: none;
+  color: white;
+
+}
+
 
 footer p{
   background-color: #f2b28f;
   text-align: left;
-  padding-left: 3em;
+  padding: 1em 1em 1em 3em;
+  width:100%;
 
 }
 .div8 {
@@ -416,6 +429,8 @@ header nav li{
 h1 {
   font-size: 1.2rem;
 }
+
+
 
 
 footer {
